@@ -1,0 +1,54 @@
+* {
+  margin: 0; //na min exoun kena metaksi tous
+  padding: 0; //mesa to context na min exei keno
+}
+
+.outer-cont {
+  display: flex; // ta emfanizei ola stin seira
+  flex-direction: column; // ta emfanizei ola se stili
+  background: linear-gradient(to bottom left, #00ffcc 0%, #cc99ff 100%);
+  align-items: center; //ta fernei ola sto kentro tis prwtis grammis
+  justify-content: center; //ta fernei sto kentro tis othonis
+  height: 100vh; // to kanei megalo megalo akrivos den kserw
+}
+
+main {
+  display: grid; // to kanei apo eyueia grammi grid tetragwna pros ta katw
+  grid-template-columns: 200px 200px 200px; // tou dinei kena se kathe keli  kai ta xwrizei se steiles
+  grid-gap: 0px; //den kserw
+}
+
+app-board {
+  border: 1px solid rgb(57, 57, 57) solid; //bazei pergrama se groma mauro
+  height: 200px; //dinei ispsos se kathe keli
+}
+
+h1 {
+  text-align: right;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; // grammatosira allazei
+  padding: 20px 0px; //bazei keno anamesa sta stoixeia to ena me to allo
+  width: 100px; //kathorizei to ipsos
+  margin-right: 30px; //metatopisi 30 px
+  color: white; //xrwma leuko
+}
+
+button {
+  font-size: 30px; //bazi ta grammata 30 px
+  padding: 10px; //megaloni to keno ap to context me to orio tou koutiou
+  border-radius: 20px; // to kanei to tetragono pio kykliko
+  border: none; //sbinei to mauro perigramma tou tetragwnou
+  margin: 10px; //afinei 10 px anamesa sto koumpi me to epanw draw stoixio
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer; // kani to pontiki xeri otan kanei hover epanw sto koumpi
+}
+
+h2 {
+  font-size: 100px; //kanei ta grammata 100 px tou h2
+  font-family: "Courier New", Courier, monospace; // bazei sugkekrimeni grammatoseira
+  color: white; //xrwma leuko
+}
